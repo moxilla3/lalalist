@@ -1,0 +1,224 @@
+@charset "UTF-8";
+/* CSS Document */
+/*	outline: 1px solid red;
+} */
+
+body {
+  background-color: #FFF;
+  text-align:center;  
+}
+
+.head-bg {
+	width: 100%;
+	height: 200px;
+	margin: 0 auto;
+	background-color: #a211ba;
+	padding: none;
+}
+
+.head-bg h1 {
+	color: #FFFDFD;
+	width: 300px;
+	height: 29px;
+	font-family: GloriaHallelujah;
+	color: white;
+	font-size: 36px;
+	font-weight: 400;
+	text-align: center;
+	margin: 0 auto; 
+
+}
+
+#logo {
+	width: 73px;
+	height: 87px;
+	text-align: center;
+	margin: 0 auto;
+	padding-top: 32px;
+}
+	
+	#logo .img {
+	padding-top: 7px;
+}
+
+.head-bg h2 {
+	color: #FFF;
+	width: 300px;
+	height: 14px;
+	font-family: GloriaHallelujah;
+	font-size: 14px;
+	font-weight: 400;
+	text-align: center;
+	margin: 0 auto; 
+	padding-top: 12px;
+}
+
+.ltpurpbg {
+	width: 100%;
+	height: 110px;
+	background-color: #f1dcf5;
+	margin: 0 auto;
+	padding-top: 10px;
+}
+
+.ltpurpbg p {
+	color: #999;
+	width: 100%;
+	height: 14px;
+	font-family: GloriaHallelujah;
+	font-size: 14px;
+	font-weight: 400;
+	text-align: center;
+	margin: 0 auto; 
+	
+	
+}
+
+
+.formContainer {
+	width: 380px;
+	height: 39px;
+	text-align: center;
+	margin: 15px auto 0 auto;
+	padding: 0px;
+	}
+
+
+.formBox {
+	width: 210px;
+	height: 38px; 
+	background-color: white;
+	text-align: left;
+	margin: 0px auto; 
+	padding-top: 0px;
+	
+	border: 1px solid #999;
+}
+
+
+.formBtn {
+	float: left;
+	background-color: black;
+	width: 39px;
+	height: 38px;
+	margin: 0px	 auto; 
+	padding: 0 0 0 12	;
+}
+
+.textfield {
+	height: 39px;
+}
+
+
+
+input.placeholder {
+    text-align: left;
+	float: left;
+	font-family: GloriaHallelujah;
+	color: #999;
+	font-size: 16px;
+	
+	
+	}
+
+.listItem {
+	width:300px;
+	height: 39px;
+	font-family: GloriaHallelujah;
+	color: #999;
+	font-size: 16px;
+	margin-left: 6px;
+}
+
+.addListItemBtn {
+	height: 39px;
+	width:39px;
+	background-color: #a211ba;
+	color: #FFF;	
+	font-family: GloriaHallelujah;
+	font-size: 16px;
+}
+	
+	.myListContainer {
+	width: 380px;
+	height: 500px;
+	text-align: center;
+	margin: 0 auto;
+	padding-top: 12px;
+	}
+	
+	/*
+	
+	.myListContainer p{
+		font-family : GloriaHallelujah ;
+		color : #a211ba ;
+		font-size : 12px ;
+		font-weight : 400 ;
+		text-align:center;
+		
+		height: 24px;
+		width:150px;
+		padding-top: 12px;
+		margin: 0 auto;
+	}
+	*/
+	
+	
+	.deleteTxt {
+		font-family: GloriaHallelujah;
+		color: #a211ba;
+		font-size: 12px;
+		font-weight: 400;
+		text-align: center;
+		padding-bottom: 50;
+	}
+	
+	
+	
+	.listItemOne {
+		font-family : GloriaHallelujah ;
+		color: #a211ba ;
+		font-size : 16px ;
+		font-weight : 400 ;
+		text-align: center;
+		height: 24px;
+		width: 300px;
+		padding-top: 12px;
+		margin: 0 auto;
+	}
+	 
+	
+	.delete {
+  	cursor: pointer;
+  	margin-top: 5px;
+  	float: left;
+  	height: 22px;
+  	width: 22px;
+  	background: url('../images/x-mark.png');
+}
+
+#list {
+    position:center;
+    width:60%;
+    margin:0 auto;
+    padding-top:20px;
+}
+
+
+ul {
+	 list-style-type: none;
+	 font-family : GloriaHallelujah ;
+		color: #a211ba ;
+		font-size : 16px ;
+}
+
+i {
+    float: right;
+    margin-right: 5px;
+    z-index:12;
+}
+.fa-minus-circle:before {
+    margin-left:-311px;
+    padding: 10px;
+	color: pink;
+}

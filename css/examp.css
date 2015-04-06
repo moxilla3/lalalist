@@ -1,0 +1,148 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+    content:'';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+/* Main styles */
+ body {
+    background-color: purple;
+    font-family:'Luckiest Guy'
+}
+#main {
+    padding:5%;
+    box-shadow: 5px 5px 5px gray;
+    background-color: bisque;
+    border: 3px inset white;
+    width:600px;
+    margin:10% auto;
+}
+#main > div {
+    position:relative;
+    width:60%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(0, 0, 0, .2);
+    text-align: center;
+    box-shadow: 0px 0px 100px white;
+    padding:10px 0px;
+}
+#main h1 {
+    color:purple;
+    padding: 10px;
+    font-size: 2em;
+    background-color: white;
+    border:2px ridge black;
+    border-radius: 2em;
+    width:60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#input {
+    padding:50px;
+    padding-bottom:20px;
+}
+#input input {
+    text-align: center;
+    width:60%;
+}
+li > input {
+    position:absolute;
+    top:0;
+    left:0;
+    padding:5px 0px;
+    background-color: yellow;
+    border: 2px solid black;
+    border-top: 0px solid black;
+    border-radius: 11px;
+    height:15px;
+    width:176px;
+    font-size:.7em;
+}
+.fa-check:before {
+    position:absolute;
+    top:4px;
+    right:10px;
+}
+#error {
+    display: none;
+    color:purple;
+    background-color: white;
+    border:2px solid black;
+    border-radius: 1em;
+    margin-top: 5px;
+}
+#list {
+    position:center;
+    width:60%;
+    margin:0 auto;
+    padding-top:20px;
+}
+.item {
+    cursor:pointer;
+    padding:5px 0px;
+    background-color: yellow;
+    border: 2px solid black;
+    border-top: 0px solid black;
+    border-radius: 1em;
+    position:relative;
+    z-index:5;
+}
+.item:before {
+    content:" \2003";
+    position: relative;
+}
+.item p {
+    display:inline;
+    padding-right: 10px;
+}
+.item:first-child {
+    border-top: 2px solid black;
+}
+i {
+    float: right;
+    margin-right: 5px;
+    z-index:10;
+}
+.fa-wrench:before {
+    margin-left:-311px;
+    padding:10px;
+}
+.strike {
+    background-color:green;
+}
+.strike:before {
+    content:"\2713";
+    position: relative;
+    color:red;
+}
+@media all and (max-width: 600px) {
+    #main {
+        background-image: url();
+        padding:5px;
+        width:100%;
+    }
+}
