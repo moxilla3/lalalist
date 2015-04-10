@@ -3,7 +3,7 @@ $(document).ready(function () {
     $("#submit").on("click", function(event) {
   event.preventDefault();
   var item = $("#item").val();
-  $("#list").prepend("<li><button class='remove'>X</button>"+item+"</li>");
+  $("#list").prepend("<li><button id='remove'>X</button>"+item+"</li>");
 });
     });
 
