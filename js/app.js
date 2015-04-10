@@ -1,32 +1,29 @@
 $(document).ready(function () {
    
-    //enter will click add
-    $('.listItem').keyup(function (event) {
-        if (event.keyCode == 13) {
-            event.preventDefault();
-            $('.add').click();
-        }
-    });
+$("#submit").on("click", function() {
+  var item = $("#item").val();
+  $("#list").prepend("<li><button class='remove'>X</button>"+item+"</li>");
+});
 
 
+$("#list").on("click", "li", function() {
+  $(this).toggleClass("checked");
+});
 
-//add item
-    $('button.addListItemBtn').click(function () {
-        if ($('.listItem').val().trim().length === 0) {
-            $("#error").show();
-        } else {
-            $('ul').append('<p> ' + $('.listItem').val() + '</p>' + '<i class="fa fa-minus-circle "></i></li>');
-        }
-    });
-    //add item:
-    $('ul').on('click', 'p', function (event) {
-        event.preventDefault();
-        $(this).closest('li').toggleClass('strike');
-        $(this).find('i:last-child').toggleClass('fa-trash').toggleClass('fa-trash-o');
-    });
+$("#list").on("click", ".remove", function() {
+  $(this).closest("li").remove();
+});
 
+$("#clear").on("click", function() {
+  $(".checked").remove();
+});
 
-
+$("#item").keydown(function(e) {
+    if (e.which == 13) {
+      var item = $("#item").val();
+  		$("#list").prepend("<li> <button class='remove'>X</button>"+item+"</li>");
+    }
+});
 
 
 

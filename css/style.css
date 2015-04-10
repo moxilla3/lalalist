@@ -1,153 +1,144 @@
 @charset "UTF-8";
+
 /* CSS Document */
 /*	outline: 1px solid red;
 } */
-
 body {
-  background-color: #FFF;
-  text-align:center;  
+    background-color:#FFF;
+    text-align:center;
+    font-family:'Gloria Hallelujah',sans-serif;
+    -webkit-font-smoothing:antialiased
 }
 
 .head-bg {
-	width: 100%;
-	height: 200px;
-	margin: 0 auto;
-	background-color: #a211ba;
-	padding: none;
+    width:100%;
+    height:200px;
+    margin:0 auto;
+    background-color:#a211ba;
+    padding:none
 }
 
 .head-bg h1 {
-	color: #FFFDFD;
-	width: 300px;
-	height: 29px;
-	font-family: GloriaHallelujah;
-	color: white;
-	font-size: 36px;
-	font-weight: 400;
-	text-align: center;
-	margin: 0 auto; 
-
+    color:#FFFDFD;
+    width:300px;
+    height:29px;
+    color:#fff;
+    font-size:36px;
+    font-weight:400;
+    text-align:center;
+    margin:0 auto
 }
 
 #logo {
-	width: 73px;
-	height: 87px;
-	text-align: center;
-	margin: 0 auto;
-	padding-top: 32px;
+    width:73px;
+    height:87px;
+    text-align:center;
+    margin:0 auto;
+    padding-top:32px
 }
-	
-	#logo .img {
-	padding-top: 7px;
+
+#logo .img {
+    padding-top:7px
 }
 
 .head-bg h2 {
-	color: #FFF;
-	width: 300px;
-	height: 14px;
-	font-family: GloriaHallelujah;
-	font-size: 14px;
-	font-weight: 400;
-	text-align: center;
-	margin: 0 auto; 
-	padding-top: 12px;
+    color:#FFF;
+    width:300px;
+    height:14px;
+    font-family:'Gloria Hallelujah',sans-serif;
+    -webkit-font-smoothing:antialiased;
+    font-size:14px;
+    font-weight:400;
+    text-align:center;
+    margin:0 auto;
+    padding-top:12px
 }
 
 .ltpurpbg {
-	width: 100%;
-	height: 110px;
-	background-color: #f1dcf5;
-	margin: 0 auto;
-	padding-top: 10px;
+    width:100%;
+    height:85px;
+    background-color:#f1dcf5;
+    margin:0 auto;
+    padding-top:2em;
 }
 
 .ltpurpbg p {
-	color: #999;
-	width: 100%;
-	height: 14px;
-	font-family: GloriaHallelujah;
-	font-size: 14px;
-	font-weight: 400;
-	text-align: center;
-	margin: 0 auto; 
-	
-	
+    color:#999;
+    width:100%;
+    height:14px;
+    font-family:GloriaHallelujah;
+    font-size:14px;
+    font-weight:400;
+    text-align:center;
+    margin:0 auto
 }
-
 
 .formContainer {
-	width: 380px;
-	height: 39px;
-	text-align: center;
-	margin: 15px auto 0 auto;
-	padding: 0px;
-	}
-
-
-.formBox {
-	width: 210px;
-	height: 38px; 
-	background-color: white;
-	text-align: left;
-	margin: 0px auto; 
-	padding-top: 0px;
-	
-	border: 1px solid #999;
+    width:380px;
+    height:39px;
+    text-align:center;
+    margin:15px auto 0;
+    padding:0
 }
 
+.formBox {
+    width:210px;
+    height:38px;
+    background-color:#fff;
+    text-align:left;
+    margin:0 auto;
+    padding-top:0;
+    border:1px solid #999
+}
 
 .formBtn {
-	float: left;
-	background-color: black;
-	width: 39px;
-	height: 38px;
-	margin: 0px	 auto; 
-	padding: 0 0 0 12	;
+    float:left;
+    background-color:#000;
+    width:39px;
+    height:38px;
+    margin:0 auto;
+    padding:0 0 0 12px
 }
 
 .textfield {
-	height: 39px;
+    height:39px
 }
 
-
-
 input.placeholder {
-    text-align: left;
-	float: left;
-	font-family: GloriaHallelujah;
-	color: #999;
-	font-size: 16px;
-	
-	
-	}
+    text-align:left;
+    float:left;
+    font-family:GloriaHallelujah;
+    color:#999;
+    font-size:16px
+}
 
 .listItem {
-	width:300px;
-	height: 39px;
-	font-family: GloriaHallelujah;
-	color: #999;
-	font-size: 16px;
-	margin-left: 6px;
+    width:300px;
+    height:39px;
+    font-family:GloriaHallelujah;
+    color:#999;
+    font-size:16px;
+    margin-left:6px
 }
 
 .addListItemBtn {
-	height: 39px;
-	width:39px;
-	background-color: #a211ba;
-	color: #FFF;	
-	font-family: GloriaHallelujah;
-	font-size: 16px;
+    height:39px;
+    width:39px;
+    background-color:#a211ba;
+    color:#FFF;
+    font-family:GloriaHallelujah;
+    font-size:16px
 }
-	
-	.myListContainer {
-	width: 380px;
-	height: 500px;
-	text-align: center;
-	margin: 0 auto;
-	padding-top: 12px;
-	}
-	
-	/*
+
+.myListContainer {
+    width:380px;
+    height:500px;
+    text-align:center;
+    margin:0 auto;
+    padding-top:12px
+}
+
+/*
 	
 	.myListContainer p{
 		font-family : GloriaHallelujah ;
@@ -162,63 +153,109 @@ input.placeholder {
 		margin: 0 auto;
 	}
 	*/
-	
-	
-	.deleteTxt {
-		font-family: GloriaHallelujah;
-		color: #a211ba;
-		font-size: 12px;
-		font-weight: 400;
-		text-align: center;
-		padding-bottom: 50;
-	}
-	
-	
-	
-	.listItemOne {
-		font-family : GloriaHallelujah ;
-		color: #a211ba ;
-		font-size : 16px ;
-		font-weight : 400 ;
-		text-align: center;
-		height: 24px;
-		width: 300px;
-		padding-top: 12px;
-		margin: 0 auto;
-	}
-	 
-	
-	.delete {
-  	cursor: pointer;
-  	margin-top: 5px;
-  	float: left;
-  	height: 22px;
-  	width: 22px;
-  	background: url('../images/x-mark.png');
+.deleteTxt {
+    font-family:GloriaHallelujah;
+    color:#a211ba;
+    font-size:12px;
+    font-weight:400;
+    text-align:center;
+    padding-bottom:50px
+}
+
+.listItemOne {
+    font-family:GloriaHallelujah;
+    color:#a211ba;
+    font-size:16px;
+    font-weight:400;
+    text-align:center;
+    height:24px;
+    width:300px;
+    padding-top:12px;
+    margin:0 auto
+}
+
+.delete {
+    cursor:pointer;
+    margin-top:5px;
+    float:left;
+    height:22px;
+    width:22px;
+    background:url(../images/x-mark.png)
 }
 
 #list {
     position:center;
     width:60%;
     margin:0 auto;
-    padding-top:20px;
+    padding-top:20px
 }
 
-
 ul {
-	 list-style-type: none;
-	 font-family : GloriaHallelujah ;
-		color: #a211ba ;
-		font-size : 16px ;
+    list-style-type:none;
+    font-family:GloriaHallelujah;
+    color:#a211ba;
+    font-size:16px
 }
 
 i {
-    float: right;
-    margin-right: 5px;
-    z-index:12;
+    float:right;
+    margin-right:5px;
+    z-index:12
 }
+
 .fa-minus-circle:before {
     margin-left:-311px;
-    padding: 10px;
-	color: pink;
+    padding:10px;
+    color:#ffc0cb
+}
+
+/* CSS  good */
+#item,#submit,#clear,#remove,#list {
+    font-family:'Gloria Hallelujah',sans-serif;
+    -webkit-font-smoothing:antialiased
+}
+
+#submit,#clear,#remove,button {
+    font-family:'Gloria Hallelujah',sans-serif;
+    -webkit-font-smoothing:antialiased;
+    color:#fff
+}
+
+#list {
+    color:#a211ba;
+    list-style:none;
+    padding:0;
+    width:200px;
+    height:auto;
+    text-align:left;
+    margin:0 auto;
+    padding:0
+}
+
+#list > li {
+    cursor:pointer;
+    text-align:left;
+    font-size:18px;
+    padding:5px 0;
+	font-family:'Gloria Hallelujah',sans-serif;
+    -webkit-font-smoothing:antialiased;
+}
+
+.checked {
+    background-color:#f1dcf5;
+    color:#fff
+}
+
+button {
+    background-color: #a211ba;
+    font-style:bolder;
+    margin-right:12px
+}
+
+button #remove {
+    background-color:#f1dcf5;
+}
+
+#showlist {
+	
 }
