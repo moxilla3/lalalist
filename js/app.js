@@ -1,8 +1,10 @@
 $(document).ready(function () {
 
-    $('#submit').on('click', function () {
-        var item = $('#item').val();
-        $('#list').prepend('<li><button class="remove">X</button>"+item+"</li>');
+    $("#submit").on("click", function(event) {
+  event.preventDefault();
+  var item = $("#item").val();
+  $("#list").prepend("<li><button class='remove'>X</button>"+item+"</li>");
+
     });
 
 
