@@ -3,6 +3,10 @@ $(document).ready(function () {
 $("#submit").on("click", function() {
   var item = $("#item").val();
   $("#list").prepend("<li><button class='remove'>X</button>"+item+"</li>");
+  //prevent default
+console.log("submit clicked");
+   e.preventDefault();
+
 });
 
 
