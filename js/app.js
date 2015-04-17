@@ -20,14 +20,17 @@ $(document).ready(function () {
         $('.checked').remove();
     });
 
-    $('#item').keydown(function (e) {
-        if (e.which == 13) {
-            var item = $("#item").val();
+   
+//to fix the double entries
+
+    //$('#item').keydown(function (e) {
+       // if (e.which == 13) {
+            //var item = $("#item").val();
             
 
-            $('#list').prepend('<li><button class="remove">X</button>'+item+'</li>');
-        }
-    });
+           // $('#list').prepend('<li><button class="remove">X</button>'+item+'</li>');
+       // }
+    //});
 
 
 
