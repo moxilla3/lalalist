@@ -6,9 +6,7 @@ $(document).ready(function () {
   $("#list").prepend("<li><button class='remove'>X</button>"+item+"</li>");
 
   //trying to reset form field
-  // $('#item').each (function(){
-  //this.reset();
-  //
+   $('#item').val("");
 
     });
 
