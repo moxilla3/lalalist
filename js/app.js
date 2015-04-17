@@ -22,7 +22,7 @@ $(document).ready(function () {
 
     $('#item').keydown(function (e) {
         if (e.which == 13) {
-            var item = $('#item').val();
+            var item = $("#item").val();
             $('#list').prepend('<li><button class="remove">X</button>"+item+"</li>');
         }
     });
